@@ -6,5 +6,10 @@ pipeline {
         sh 'git@github.com:zerolugithub/pythonstudy.git'
       }
     }
+    stage('OK') {
+      steps {
+        echo 'this is ok'
+      }
+    }
   }
 }
