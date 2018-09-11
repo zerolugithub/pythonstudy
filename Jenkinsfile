@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('gitlab') {
       steps {
-        sh 'git@github.com:zerolugithub/pythonstudy.git'
+        sh 'git clone git@github.com:zerolugithub/pythonstudy.git'
       }
     }
     stage('OK') {
